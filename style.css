@@ -1,0 +1,112 @@
+:root {
+    --a: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+    margin: 0;
+    background-image: url("login_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+#header {
+    background-color: #161616;
+    border-bottom: 1px solid #393939;
+}
+
+#header-main {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+#header-title {
+    /* display: inline-block; */
+    /* width: 20%; */
+    /* align-items: center;
+    justify-content: center; */
+}
+#header-title a {
+    /* align-items: center;
+    justify-content: center; */
+}
+#header-title a {
+    text-decoration: none;
+}
+#IBM-LOGO {
+    font-family: var(--a);
+    color: gainsboro;
+    /* align-items: center;
+    justify-content: center; */
+}
+#header-nav {
+    display: inline-block;
+}
+#header-nav li {
+    /* width: 20px; */
+    display: inline-block;
+}
+#header-nav ul {
+    /* overflow: hidden; */
+    /* color: lightgrey; */
+    /* list-style-type: none; */
+}
+.nav {
+    font-family: var(--a);
+    display: inline-block;
+    vertical-align: middle;
+    color: lightgray;
+}
+.nav .nav-content {
+    padding: 10px;
+}
+.nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#cloud-img {
+    scale: 0.3;
+}
+
+#main {
+    color: #f4f4f4;
+}
+#main-heading-out {
+    margin-top: -70px;
+}
+#main-heading {
+    font-family: var(--a);
+    font-weight: 100;
+    margin-left: 6%;
+    margin-top: -5%;
+    font-size: 25px;
+}
+.createAcc {
+    font-family: var(--a);
+    /* font-weight: 100; */
+    margin-left: 6%;
+    /* margin-top: -5%; */
+    font-size: 16px;
+    color: darkgray;
+}
+.createAcc a {
+    text-decoration: none;
+}
+.margin {
+    margin-left: 6%;
+}
+.input-form {
+    width: 300px;
+    height: 40px;
+}
+#cont-btn {
+    margin-top: 15px;
+    padding: 15px;
+    width: 150px;
+    background-color: #0353e9;
+}
